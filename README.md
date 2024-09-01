@@ -6,6 +6,7 @@ This project demonstrates the integration of Autogen with Langchain to create a 
 
 The project showcases the compatibility of Langchain with Autogen, opening up possibilities for using various Language Models (LLMs) within the Autogen framework. It serves as both a demonstration of this integration and a fun, interactive food recommendation system.
 
+Related Blog [Post](https://medium.com/@techwithkrooz/cooking-up-ai-building-a-south-indian-aunty-chef-with-autogen-and-langchain-26163dd4eaa3)
 ## Features
 
 - Custom model client for loading and using HuggingFace models with Autogen
@@ -76,3 +77,4 @@ This project is licensed under the MIT License.
 - Autogen library for providing the conversational AI framework
 - Langchain for enabling easy integration with various LLMs
 - HuggingFace for the Phi-3.5-mini-instruct model
+- Claude 3.5 Sonnet for helping me to correct the grammer and code
