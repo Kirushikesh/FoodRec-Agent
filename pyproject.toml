@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "foodrec-agent"
+version = "0.1.0"
+description = "An LLM Agent which recommends indian-style food based on the user interest, available ingredients, etc. using Langchain and AutoGen"
+authors = ["Kirushikesh DB"]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "foodrec_agent"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+torch = "2.4.0"
+langchain-huggingface = "0.0.3"
+sentencepiece = "0.2.0"
+transformers = "4.44.2"
+pyautogen = "0.2.35"
+jupyter = "^1.1.1"
+
+
+[tool.poetry.group.lint.dependencies]
+ruff = ">0.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
