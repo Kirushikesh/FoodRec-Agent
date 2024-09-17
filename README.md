@@ -25,7 +25,7 @@ cd FoodRec-Agent
 ```
 3. Install the required dependencies:
 ```python
-pip install -r requirements.txt
+poetry install
 ```
 
 ## Usage
