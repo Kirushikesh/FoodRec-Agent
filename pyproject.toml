@@ -13,7 +13,7 @@ torch = "2.4.0"
 langchain-huggingface = "0.0.3"
 sentencepiece = "0.2.0"
 transformers = "4.44.2"
-pyautogen = "0.2.35"
+ag2 = "0.2.35"
 jupyter = "^1.1.1"
 
 
